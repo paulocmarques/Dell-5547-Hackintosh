@@ -3454,6 +3454,7 @@ DefinitionBlock ("", "DSDT", 1, "DELL  ", "CL09   ", 0x00000000)
     {
         If (LNotEqual(Arg0,5)) {
 If (LNotEqual(Arg0,5)) {
+If (LNotEqual(Arg0,5)) {
 Store (Zero, P80D)
         P8XH (Zero, Arg0, One)
         Store (Arg0, SLPS)
@@ -3527,6 +3528,8 @@ Store (Zero, P80D)
         }
 }
 }
+}
+
 
 
     }
