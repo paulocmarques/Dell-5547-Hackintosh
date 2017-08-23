@@ -17,14 +17,17 @@ With Dell 5547 (i5) you can use just replace new "SSDT-PNLF.aml" with tutorial b
 But I have change some thing and added.
 
 **How to install** 
-Option 1: Follow the instructions in the video list above.
-Option 2: Follow steps below:
+ - Option 1: Follow the instructions in the video list above.
+ - Option 2: Follow steps below:
 
 > 
  1. Create macOS Sierra bootable USB and install macOS Sierra (Video 1, 2).
  2. After the step install clover to **mac driver** on video 2, you just replace CLOVER folder by my CLOVER folder I included.
  3. Intall kexts in kexts folder by using Kext Utility.app in tools. (Rebuild cache kext after install).
  4. Reboot and see the result.
+
+**If you use usb wifi adapter**
+It can make your device can't sleep or shutdown(After longtime to use). You can fix this problem by solution in this forum: http://www.insanelymac.com/forum/topic/306800-wifi-usb-adapter-issues/
 
 
 ----------
