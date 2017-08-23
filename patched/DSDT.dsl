@@ -14911,12 +14911,17 @@ If (LEqual (Arg0, 0x04))
 
         Device (PWRB)
         {
-            Name (_HID, EisaId ("PNP0C0C"))  // _HID: Hardware ID
+            Name (_CID, EisaId ("PNP0C0C"))  // _HID: Hardware ID
+            Method (_STA, 0, NotSerialized)
+            {
+                Return (0x0B)
+            }
         }
 
         Device (SLPB)
         {
             Name (_HID, EisaId ("PNP0C0E"))  // _HID: Hardware ID
+            Name (_STA, 0x0B)
         }
     }
 
