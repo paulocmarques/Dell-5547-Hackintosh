@@ -210,19 +210,17 @@
 	</array>
 	<key>GUI</key>
 	<dict>
-		<key>#ScreenResolution</key>
-		<string>1920x1080</string>
 		<key>Custom</key>
 		<dict>
 			<key>Entries</key>
 			<array>
 				<dict>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>FullTitle</key>
-					<string>UEFI internal</string>
+					<string>UEFI Internal</string>
 					<key>Hidden</key>
-					<string>Always</string>
+					<false/>
 					<key>Ignore</key>
 					<false/>
 					<key>NoCaches</key>
@@ -232,6 +230,12 @@
 				</dict>
 			</array>
 		</dict>
+		<key>Hide</key>
+		<array>
+			<string>Windows</string>
+			<string>\EFI\BOOT\BOOTX64.EFI</string>
+			<string>Recovery HD</string>
+		</array>
 		<key>Mouse</key>
 		<dict>
 			<key>DoubleClick</key>
@@ -248,7 +252,7 @@
 			<key>Entries</key>
 			<true/>
 			<key>Legacy</key>
-			<true/>
+			<false/>
 			<key>Linux</key>
 			<false/>
 			<key>Tool</key>
