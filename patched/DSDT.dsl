@@ -3453,9 +3453,7 @@ DefinitionBlock ("", "DSDT", 1, "DELL  ", "CL09   ", 0x00000000)
     Method (_PTS, 1, NotSerialized)  // _PTS: Prepare To Sleep
     {
         If (LNotEqual(Arg0,5)) {
-If (LNotEqual(Arg0,5)) {
-If (LNotEqual(Arg0,5)) {
-Store (Zero, P80D)
+        Store (Zero, P80D)
         P8XH (Zero, Arg0, One)
         Store (Arg0, SLPS)
         If (And (ICNF, 0x10))
@@ -3526,12 +3524,7 @@ Store (Zero, P80D)
                 Store (One, GP27)
             }
         }
-}
-}
-}
-
-
-
+    }
     }
 
     Method (MMRP, 0, NotSerialized)
@@ -3547,8 +3540,7 @@ Store (Zero, P80D)
     Method (_WAK, 1, Serialized)  // _WAK: Wake
     {
         If (LOr(LLess(Arg0,1),LGreater(Arg0,5))) { Store(3,Arg0) }
-If (LOr(LLess(Arg0,1),LGreater(Arg0,5))) { Store(3,Arg0) }
-If (LEqual (Arg0, 0x04))
+        If (LEqual (Arg0, 0x04))
         {
             \_SB.PCI0.LPCB.OSTP ()
         }
