@@ -4,11 +4,11 @@ macOS Sierra for Dell 5547 (i7)
 This is a working set of kexts and configurations for running macOS Sierra on an Dell 5547 (i7) laptop.
 With Dell 5547 (i5) you can use just replace new "SSDT-PNLF.aml" with tutorial below. 
 
-**Status**
+## Status
  - Current version: macOS Sierra 10.12.4
  - Bootloader: Clover EFI
  - Working: CPU steps, sleep, audio, multitouch, FN keys, USB...
- - Not working: wifi, bluetooth, amd graphic, ...
+ - Not working: wifi, bluetooth, amd graphic (had been disabled), ...
 
 **How to install macOS Sierra on Dell Inspiron 15 5000 series (5547)**
 
@@ -16,7 +16,7 @@ With Dell 5547 (i5) you can use just replace new "SSDT-PNLF.aml" with tutorial b
 
 But I have change some thing and added.
 
-**How to install** 
+## How to install
  - Option 1: Follow the instructions in the video list above.
  - Option 2: Follow steps below:
 
