@@ -29,6 +29,8 @@ But I have change some thing and added.
 **If you use usb wifi adapter**
 It can make your device can't sleep or shutdown(After longtime to use). You can fix this problem by solution in this forum: http://www.insanelymac.com/forum/topic/306800-wifi-usb-adapter-issues/
 
+## News
+- Shutdown/Sleep/Restart issues was fixed! Check the [**Management-Engine-Firmware**](https://github.com/anhbinhvodanh/Dell-5547-Hackintosh/tree/master/Management-Engine-Firmware) folder!
 
 ----------
 Sorry for my poor English.
