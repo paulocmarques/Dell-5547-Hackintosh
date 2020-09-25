@@ -1,3 +1,5 @@
+The new verison base on Opencore: https://github.com/anhbinhvodanh/Dell-5547-Hackintosh-OpenCore
+
 macOS Sierra for Dell 5547 (i7)
 -------------------------------
 
